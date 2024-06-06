@@ -1,0 +1,58 @@
+body{
+    
+    background-image: url("../images/plage.jpg");
+    background-repeat: no-repeat;
+    background-size:100% ;
+}
+footer,header{
+    color:white;
+    height: 2cm;
+}
+
+header{
+    display:flex;
+    justify-content: space-around;
+}
+.headertitre{
+    font-family: cursive;
+    font-size: 25px;
+    font-weight: 500;
+}
+a{
+    text-decoration: none;
+    text-decoration-color:white;
+    color:white ;
+    
+}
+form{
+    display:flex ;
+    flex-direction: column;
+    border: 3px solid white; 
+    padding: 10px;
+    border-radius: 10px;
+    align-items: center;
+    
+   
+}
+input{
+    width: 400px;
+}
+button{
+    width: 200px;
+}
+label{
+    color: white;
+}
+h1{
+    color: white;
+    text-align: center;
+    font-weight: 200;
+}
+
+.titreaccueil{
+    color: white;
+    font-size:200px;
+    justify-content: center;
+    text-align: center ;
+}
+
